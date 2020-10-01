@@ -1,9 +1,15 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 h1 {
     color: aqua;
 }
 
 img {
-    width: 400px;
+    width: 100%;
 }
 
 #thirdDiv {
@@ -23,6 +29,11 @@ body {
     background-image: url("https://s1.eestatic.com/2015/03/31/cocinillas/Cocinillas_22257914_116018278_1024x576.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 600px;
+    color: white;
+    font: "Consolas";
+    font-size: 18px;
+    display: flex;
 }
 
 div {
